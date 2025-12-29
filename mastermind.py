@@ -47,7 +47,7 @@ def set_globals():
       M, N = int(M), int(N)
     except ValueError:
       print('Expected two integers.')
-      return
+      raise
 
 
 def build_hits_matrices(queries):
